@@ -3,7 +3,7 @@ bundler_args: --without development
 rvm:
   - 1.9.3
   - 2.0.0
-  - 2.1.2
+  - 2.1.1
   - jruby
   - rbx
 matrix:
@@ -11,8 +11,6 @@ matrix:
     - rvm: rbx
 notifications:
   recipients:
-    - thibaud@thibaud.gg
-    - remy@rymai.me
-    - michi@flinkfinger.com
+    - wobh@yahoo.com
   irc: 'irc.freenode.org#guard'
   webhooks: https://www.buildheroes.com/api/projects/870763b3173212e1df41d8825927256e18bbaba1/builds
